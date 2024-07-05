@@ -1,0 +1,21 @@
+{
+    "manifest_version": 3,
+    "name": "URL Display Extension",
+    "version": "1.0",
+    "description": "Display the current website's URL",
+    "permissions": ["activeTab"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+      }
+    },
+    "icons": {
+      "16": "images/icon.png",
+      "48": "images/icon.png",
+      "128": "images/icon.png"
+    }
+  }
+  

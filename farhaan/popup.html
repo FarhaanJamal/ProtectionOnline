@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Popup</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js"></script>
+</head>
+<body>
+  <h1 style="text-align: center;">PROTECTION ONLINE</h1>
+  <div id="progress-bar">
+    <div id="progress-labels">
+      <div class="progress-label">Unsecure</div>
+      <div class="progress-label">Secure</div>
+    </div>
+    <div class="progress" id="progress-value"></div>
+  </div>
+  <div id="security-container">
+  <h1>Security</h1>
+  <div id="expiry">Cookie Expires On:</div>
+  <div id="ssl">
+    <span id="sslHeading">Website Certification:</span> <span id="sslText"></span>
+  </div>
+  <div id="safeBrowsing">
+    <span id="safeBrowsingHeading">Safe Browsing:</span> <span id="safeBrowsingText"></span>
+  </div>
+  <div id="crowd-source-info">Crowd Source Voting: </div>
+</div>
+    <div id="privacy-container">
+      <h1>Data Collection Report</h1>
+      <div id="privacy-text"></div>
+    </div>
+    <div id="reg-container">
+    <h1>Regulatory Complaince</h1>
+<div id="reg-text"></div>
+</div>
+    <div id="review-container">
+      <h1>Is this Website Safe ?</h1>
+      <label>
+        <input type="radio" name="review" value="Safe"> Safe
+      </label>
+      <label>
+        <input type="radio" name="review" value="Unsafe"> Unsafe
+      </label>
+      <button id="review-submit">Submit</button>
+    </div> 
+</body>
+</html>

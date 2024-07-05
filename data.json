@@ -1,0 +1,30 @@
+{
+    "www.google.com": [
+        18,
+        7
+    ],
+    "www.apple.com": [
+        100,
+        0
+    ],
+    "testsafebrowsing.appspot.com":[
+        1,
+        100
+    ],
+    "coolsplendidsublimemelody.neverssl.com":[
+        1,
+        100
+    ],
+    "www.myntra.com":[
+        2,90
+    ],
+    "www.amazon.com":[
+        13,80
+    ],
+    "www.flipkart.com":[
+        20,90
+    ],
+    "www.openai.com":[12,50],
+    "www.meesho.com":[30,90]
+
+}

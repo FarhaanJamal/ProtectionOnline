@@ -1,0 +1,99 @@
+body {
+  width: 500px;
+  height: auto;
+  margin: 20px;
+  background-color: #f9f7f7;
+  font-family: 'Poppins', Arial, sans-serif;
+  color: #2c3e50;
+}
+
+h1 {
+  font-size: 18px;
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+div {
+  font-size: 15px;
+  cursor: auto;
+  color: #57606f;
+}
+
+#progress-bar {
+  width: 100%;
+  height: 20px;
+  background-color: #dfe4ea;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+
+#progress-bar .progress {
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+#progress-bar .progress.red {
+  background-color: #eb4d4b;
+}
+
+#progress-bar .progress.yellow {
+  background-color: #f9ca24;
+}
+
+#progress-bar .progress.green {
+  background-color: #2ecc71;
+}
+
+#privacy-container, #reg-container,#security-container {
+  background-color: #ffffff;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#privacy-text {
+  color: #57606f;
+}
+
+#reg-container,#reg-container,#security-container {
+  margin-top: 20px;
+}
+
+label {
+  margin-right: 15px;
+  color: #57606f;
+}
+
+#review-submit {
+  background-color: #3498db;
+  color: #fff;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+#review-submit:hover {
+  background-color: #2980b9;
+}
+#progress-bar {
+  position: relative;
+}
+
+#progress-labels {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-label {
+  font-size: 15px;
+  font-weight: bold;
+}

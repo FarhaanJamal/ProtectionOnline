@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>URL Processor</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <h1>URL Processor</h1>
+  <div class="container">
+    <div id="progress-bar">
+      <div id="progress-labels">
+        <div class="progress-label" style="padding-left: 10px;">Unsecure</div>
+        <div class="progress-label" style="padding-right: 10px;">Secure</div>
+      </div>
+      <div class="progress" id="progress-value"></div>
+    </div>
+
+    <div id="security-container">
+      <div id="a1">  </div>
+      <div id="a2"></div>
+      <div id="a3"></div>
+      <div id="a4"></div>
+    </div>
+
+    <h1>Privacy Overview</h1>
+    <div id ="privacy-container">
+      <div id="a5"></div>
+      <div id="a6"></div>
+    </div>
+    <h1>Regulatory Compliance</h1>
+    <div id="reg-container">
+      <div id="a7"></div>
+      <div id="a8"></div>
+    </div>
+    <!--<div id="all"></div>-->
+  </div>
+  <div id="review-container">
+    <h1>Is this Website Safe ?</h1>
+    <label>
+      <input type="radio" name="review" value="Safe"> Safe
+    </label>
+    <label>
+      <input type="radio" name="review" value="Unsafe"> Unsafe
+    </label>
+    <button id="review-submit">Submit</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
